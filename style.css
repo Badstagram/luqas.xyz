@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+body {
+	background-color:#a5b1c2;
+		color:#fc5c65;
+	font-family:'Asap',sans-serif;
+	text-align:center;
+}
+header {
+	position:fixed;
+	left:420px;
+	top:0;
+	width:50%;
+	background-color:#fc5c65;
+	color:#fff;
+	text-align:center;
+	border-radius:25px;
+	font-size:20px;
+}
+footer {
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color:#fc5c65;
+	color:#fff;
+	text-align:center;
+	border-radius:25px;
+	font-size:10px;
+}
+footer a {
+	background-color:#fc5c65;
+	border-radius:25px;
+	color:#fff;
+	font-size:10px;
+}
+footer a:hover {
+	background-color:#fff;
+	border-radius:25px;
+	color:#fc5c65;
+	font-size:10px;
+}
+ul {
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	overflow:hidden;
+	background-color:#fc5c65;
+	border-radius:25px;
+}
+li {
+	float:left;
+	color:#2C3A47;
+	display:block;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	border-radius:25px;
+}
+li a {
+	display:block;
+	color:#fff;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	border-radius:25px;
+}
+li a:hover {
+	background-color:#fff;
+	border-radius:25px;
+	color:#fc5c65;
+}
+a {
+	color:#fff;
+	text-decoration:none;
+	font-size:20px;
+}
+a:hover {
+	background-color:#99aab5;
+	border-radius:25px;
+}
+.textbox {
+	background-color:#fc5c65;
+	color:#fff;
+	text-align:center;
+	display:block;
+	max-width: 25%;
+	max-height: 25%;
+	position: static;
+	border: 3px solid #fc5c65;
+	margin-left:37%;
+	border-radius:25px;
+}
+.textbox h1 {
+	text-decoration:underline;
+}
+.textbox h2 {
+	text-decoration:underline;
+}
+.h1nothing {
+	text-decoration: none;
+}
+.textbox p {
+	font-size:20px;
+}
+.textbox a {
+	text-decoration:underline;
+}
+.errorbox {
+	background-color:#fc5c65;
+	color:#fff;
+	text-align:center;
+	display:block;
+	width:250px;
+	height:300px;
+	position:static;
+	border:3px solid #fc5c65;
+	border-radius:25px;
+	margin-left:37%;
+	left: 558;
+	top: 234;
+	position: static;
+
+}
