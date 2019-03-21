@@ -4,13 +4,6 @@ vendor
 icons
 config
 bin
-node-v11.11.0-x64.msi
-Version 1.3.11.843
-config.json
-package-lock.json
-package.json
-node_modules
-cmder & node.js
 new
 img
 *.jpg
