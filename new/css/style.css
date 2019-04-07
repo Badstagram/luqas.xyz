@@ -1,16 +1,12 @@
-body {
-    background-color: #d2dae2;
-    color: #1e272e;
-}
-
-header{
-    background-color: #ffc048;
-    color: #d2dae2;
+.header{
+    background-color: black;
     margin: 0px;
 }
-
-footer{
-    background-color: #ffc048;
-    color: #d2dae2;
+.content{
+    background-color: brown;
+    margin: 0px;
+}
+.footer{
+    background-color: black;
     margin: 0px;
 }
