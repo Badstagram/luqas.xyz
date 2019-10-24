@@ -1,16 +1,4 @@
 body {
-    background-color: #d2dae2;
-    color: #1e272e;
-}
-
-header{
-    background-color: #ffc048;
-    color: #d2dae2;
-    margin: 0px;
-}
-
-footer{
-    background-color: #ffc048;
-    color: #d2dae2;
-    margin: 0px;
+    width: 1;
+    height: 1;
 }
