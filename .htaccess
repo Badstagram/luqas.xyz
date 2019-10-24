@@ -1,6 +1,8 @@
 ErrorDocument 404 /404.html
 DirectoryIndex index.html
 
+
+
 #PHP
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
@@ -12,6 +14,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 
+RewriteEngine on
+Redirect 301 /ts3 ts3server://lqs?port=9987%26channel=lobby
 
 
 
