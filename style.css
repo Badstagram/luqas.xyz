@@ -89,6 +89,7 @@ a:hover {
 	border: 3px solid #4a69bd;
 	margin-left:37%;
 	border-radius:25px;
+	
 }
 .textbox h1 {
 	text-decoration:underline;
@@ -118,6 +119,38 @@ a:hover {
 	margin-left:37%;
 	left: 513;
 	top: 341;
+	position: static;
+
+}
+button {
+	background-color: #fff;
+	color: #4a69bd;
+	border-radius: 25px;
+	outline: none;
+	block-size: 75px;
+
+}
+
+button:hover {
+	background-color: #4a69bd;
+	color: #fff;
+	border-radius: 25px;
+	outline: none;
+	cursor: pointer;
+}
+.giveawaybox{
+	background-color:#4a69bd;
+	color:#fff;
+	text-align:center;
+	display:block;
+	width:400px;
+	height:400px;
+	position:static;
+	border:3px solid #4a69bd;
+	border-radius:25px;
+	margin-left:37%;
+	left: 760;
+	top: 340;
 	position: static;
 
 }
