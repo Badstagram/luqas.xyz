@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
 body {
+	background-image: url("./img/background.png");
 	background-color:#a5b1c2;
 		color:#4a69bd;
 	font-family:'Asap',sans-serif;
@@ -128,7 +130,6 @@ button {
 	border-radius: 25px;
 	outline: none;
 	block-size: 75px;
-
 }
 
 button:hover {
@@ -152,5 +153,8 @@ button:hover {
 	left: 760;
 	top: 340;
 	position: static;
-
 }
+.teambox{
+	
+}
+
