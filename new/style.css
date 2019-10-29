@@ -51,7 +51,7 @@ li{
     float: left;
     display: block;
 }
-.indexbackground{
+.background{
     background-image: url("./img/background-3048876_1920.jpg");
     width: 100%;
     height: 100%;
@@ -66,14 +66,57 @@ li{
     border-radius: 25px;
     position: fixed;
     width: 30%;
+    height: 35%;
+    top: 25%;
+    left: 35%;
+}
+.member#luqas{
+    background-color: #4b7bec;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    position: fixed;
+    width: 25%;
+    height: 40%;
+    top: 25%;
+    left: 20%;
+    padding: 5px;
+}
+.member#Kalle{
+    background-color: #4b7bec;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    position: fixed;
+    width: 25%;
+    height: 40%;
+    top: 25%;
+    right: 20%;
+    padding: 5px;
+}
+.giveawaybox{
+    background-color: #4b7bec;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    position: fixed;
+    width: 30%;
     height: 50%;
     top: 25%;
     left: 35%;
 }
-.border{
-    background-color: #4b7bec;
-    width: 100%;
-    height: 5%;
-    top: 50%;
-    left: 0%;
+h3{
+    text-decoration: underline;
 }
+.creditbox{
+    background-color: #4b7bec;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    position: fixed;
+    width: 30%;
+    height: 40%;
+    top: 25%;
+    left: 35%;
+}
+
