@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+body{
+    background-color: #4b6584;
+    color: #fff; 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+header{
+    background-color: #4b7bec;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    font-size:20px;
+    
+}
+footer{
+    background-color: #4b7bec;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
+    height: 5%;
+    text-align: center;
+    font-size: 10px;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    background-color: #fff;
+    color: #4b7bec;
+    border-radius: 25px;
+    padding: 5px 5px;
+    background-image: url("./img/marble-2398946_1920.jpg");
+}
+ul{
+    list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	overflow:hidden;
+    border-radius:25px;
+    display: block;
+}
+li{
+    text-decoration: none;
+    padding: 14px 16px;
+    float: left;
+    display: block;
+}
+.indexbackground{
+    background-image: url("./img/background-3048876_1920.jpg");
+    width: 100%;
+    height: 100%;
+    top: 6%;
+    left: 0%;
+    position: fixed;
+}
+.indexbox{
+    background-color: #4b7bec;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    position: fixed;
+    width: 30%;
+    height: 50%;
+    top: 25%;
+    left: 35%;
+}
+.border{
+    background-color: #4b7bec;
+    width: 100%;
+    height: 5%;
+    top: 50%;
+    left: 0%;
+}
