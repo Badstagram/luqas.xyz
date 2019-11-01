@@ -11,23 +11,23 @@ if (isset($_POST['signup-submit'])) {
 
 
     if (empty($username) || empty($email) || empty($password) || empty($passwordRepeat)) {
-        header("Location: https://luqas.xyz/login.php?error=emptyfield&username=".$username"&email".$email));
+        header("Location: https://luqas.xyz/signup.php?error=emptyfield&username=".$username"&email".$email));
         exit();
     }
     else if(!filter_var($email, FILTER_VALIDATE_EMAIL && !preg_match("/^[a-zA-Z0-9]*$/", $username)) {
-        header("Location: https://luqas.xyz/login.php?error=invalidmailusername");
+        header("Location: https://luqas.xyz/signup.php?error=invalidmailusername");
 
     }
     else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: https://luqas.xyz/login.php?error=invalidmail&uid=".$username);    
+        header("Location: https://luqas.xyz/signup.php?error=invalidmail&uid=".$username);    
         exit();    
     } 
     else if (!preg_match("/^[a-zA-Z0-9]*$/", $username)) {
-        header("Location: https://luqas.xyz/login.php?error=invalidusername&email=".$email);        
+        header("Location: https://luqas.xyz/signup.php?error=invalidusername&email=".$email);        
         exit();
     } 
     else if ($password == $passwordRepeat) {
-        header("Location: https://luqas.xyz/login.php?error=passwordCheck&username=".$username"&email=".$email);
+        header("Location: https://luqas.xyz/signup.php?error=passwordCheck&username=".$username"&email=".$email);
 
     }
     else {
@@ -35,7 +35,7 @@ if (isset($_POST['signup-submit'])) {
         $sql = "SELECT Username FROM users WHERE Username=?";
         $stmt = mysqli_stmt_init($conn);
         if (!mysqli_stmt_prepare($stmt, $sql)) {
-            header("Location: https://luqas.xyz/login.php?error=sqlerror");
+            header("Location: https://luqas.xyz/signup.php?error=sqlerror");
             exit();
         }
         else {
@@ -44,7 +44,7 @@ if (isset($_POST['signup-submit'])) {
             mysqli_stmt_store_result($stmt);
             $resultCheck = mysqli_stmt_numb_rows();
             if ($resultCheck > 0){
-                header("Location: https://luqas.xyz/login.php?error=usernametaken&email=".$email);
+                header("Location: https://luqas.xyz/signup.php?error=usernametaken&email=".$email);
             exit();
             }
             else {
@@ -53,7 +53,7 @@ if (isset($_POST['signup-submit'])) {
                 $stmt = mysqli_stmt_init($conn);
 
                 if (!mysqli_stmt_prepare($stmt, $sql)) {
-                    header("Location: https://luqas.xyz/login.php?error=sqlerror");
+                    header("Location: https://luqas.xyz/signup.php?error=sqlerror");
                     exit();
                 }
                 else {
@@ -63,7 +63,7 @@ if (isset($_POST['signup-submit'])) {
                     mysqli_stmt_bind_param($stmt, "sss", $username, $email, $hashedpwd);
                     mysqli_stmt_execute($stmt);
 
-                    header("Location: https://luqas.xyz/login.php?signup=success");
+                    header("Location: https://luqas.xyz/signup.php?signup=success");
                     exit();                       
                 }
 
@@ -79,7 +79,7 @@ if (isset($_POST['signup-submit'])) {
 
 }
 else {
-    header("Location: https://luqas.xyz/login.php?signup=success");
+    header("Location: https://luqas.xyz/signup.php?signup=success");
                     exit();  
 
 }
