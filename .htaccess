@@ -17,6 +17,9 @@ RewriteRule ^(.*)$ $1.html
 RewriteEngine on
 Redirect 301 /ts3 ts3server://lqs?port=9987%26channel=lobby
 
+RewriteEngine on
+Redirect 301 /discord https://discord.gg/t54snc3
+
 
 
  
