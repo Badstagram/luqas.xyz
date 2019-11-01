@@ -131,3 +131,15 @@ h3{
     left: 35%;
 
 }
+.impressum{
+    background-color: #4b7bec;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    position: fixed;
+    width: 30%;
+    height: 40%;
+    top: 25%;
+    left: 35%;
+
+}
