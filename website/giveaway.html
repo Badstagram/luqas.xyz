@@ -39,21 +39,21 @@
                 <p>developed and designed by <a href="https://twitter.com/luqas0001">luqas</a> &nbsp; Contact Email: <a href="mailto:luqas.business@gmail.com">luqas.business@gmail.com</a></p>
         </footer>
         <script lang="javascript">
-                var countDownDate = new Date("Nov 2, 2019 10:00:00").getTime();
-                var x = setInterval(function() {
-                  var now = new Date().getTime();
-                  var distance = countDownDate - now;
-                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-                  + minutes + "m " + seconds + "s ";
-                  if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("countdown").innerHTML = "EXPIRED";
-                  }
-                }, 1000);
-        </script>
+                        var countDownDate = new Date("Nov 2, 2019 10:00:00").getTime();
+                        var x = setInterval(function() {
+                          var now = new Date().getTime();
+                          var distance = countDownDate - now;
+                          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                          document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+                          + minutes + "m " + seconds + "s ";
+                          if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("countdown").innerHTML = "EXPIRED";
+                          }
+                        }, 1000);
+                </script>
     </body>
 </html>
