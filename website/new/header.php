@@ -5,7 +5,7 @@
      <li><a href="index">Startseite</a></li>
      <li><a href="server">Server</a></li>
      <li><a href="team">Team</a></li>
-     <li id="uhr" style="float:left;"></li>
+     <p id="uhr" ></p>
     </ul>
   </nav>
  </header>
