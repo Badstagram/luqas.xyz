@@ -4,6 +4,8 @@ body{
     color: #fff; 
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    background-repeat: no-repeat;
+    
 }
 header{
     background-color: #4b7bec;
@@ -35,7 +37,7 @@ a:hover{
     color: #4b7bec;
     border-radius: 25px;
     padding: 5px 5px;
-    background-image: url("./img/marble-2398946_1920.jpg");
+    background-image: url("./src/hd0972.mov");
 }
 ul{
     list-style-type:none;

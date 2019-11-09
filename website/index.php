@@ -7,8 +7,11 @@
      <?php 
       require "header.php"
      ?>
-     <div class="background"></div>
-     <div class="indexbox"></div>
+     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+     <script src="./js/background.js"></script>
+     <div class="indexbox">
+     <h1>Willkommen auf der luqas.xyz Homepage!</h1>
+     </div>
      <?php
       require "footer.php"    
      ?>
